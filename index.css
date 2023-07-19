@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+}
+.box{
+ 
+    height: 100vh;
+    width: 100%;
+}
+.con{
+    background-color: rgb(128, 179, 216);
+    visibility: hidden;
+}
+
+.open-popup{
+    visibility: visible;
+    width: 274px;
+    height: 339px;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    border-radius: 16px;
+    transition: transform 0.4s,top 0.4s;
+}
+.profile_img{
+    width: 37%;
+    height: 32%;
+    position: absolute;
+    top: 6%;
+    left: 31%;
+    border-radius: 50%;
+}
+#view_info{
+    
+    position: absolute;
+    top: 53%;
+    left: 12%;
+    display: inline-block;
+}
+#view_close{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    position: absolute;
+    left: 29%;
+    bottom: 5%;
+}
